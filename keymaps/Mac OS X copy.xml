@@ -3,7 +3,14 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="ctrl end" />
+  </action>
   <action id="ParameterInfo" />
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="ctrl left" />
+    <keyboard-shortcut first-keystroke="ctrl home" />
+  </action>
   <action id="com.vladsch.idea.multimarkdown.editor.actions.editorLayout.ToggleSplitLayoutChangeAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.CyclicSplitLayoutChangeAction" />
 </keymap>
